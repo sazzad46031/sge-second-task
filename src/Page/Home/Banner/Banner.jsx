@@ -22,7 +22,7 @@ const Banner = () => {
     }, []);
 
     return (
-        <div className='relative'>
+        <div className='relative lg:mb-[106px] mb-[28px]'>
             <div className='section'>
                 <div className='section-bg'>
                     <div className='section-bg--video'>
