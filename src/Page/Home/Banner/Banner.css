@@ -129,7 +129,6 @@ html {
 .circle {
     position: absolute;
     bottom: -75px;
-    left: 840px;
     width: var(--d-outer);
     height: var(--d-outer);
     border-radius: 50%;

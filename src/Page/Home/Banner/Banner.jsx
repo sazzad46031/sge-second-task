@@ -31,7 +31,7 @@ const Banner = () => {
 
 
             </div>
-            <div className='hidden lg:block'>
+            <div className='hidden lg:flex justify-center items-center max-w-[1155px] mx-auto'>
                 <div className="circle">
                     <div className="icon"><FaArrowDown></FaArrowDown></div>
                     <div className="text-two">

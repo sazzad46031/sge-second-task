@@ -10,12 +10,12 @@ const Contact = () => {
                 <h2 className='poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] pb-[39px]'>It’s Time to Start Your Journey With Us</h2>
                 <p className='mulish-regular text-[16px] text-[#1F1F1F] leading-[150%] pb-[18px]'>Book Your <span className='bg-[#88F3D0] rounded-sm px-1 font-medium py-1'>FREE</span> Consultation with Certified Counsellors</p>
             </div>
-            <div className='text-center'>
+            <div className='text-center max-w-screen-xl lg:mx-auto mx-5'>
                 <form>
                     <input type="text" placeholder='Name' className='bg-white rounded lg:w-[565px] w-[288px] lg:h-[40px] h-[45px] pl-[12px] inter-regular text-[12px] leading-[12px] outline-none block mx-auto mb-[10px]' />
                     <div className='relative text-center mb-[10px]'>
                         <input type="text" placeholder='Email' className=' bg-white rounded lg:w-[565px] w-[288px] lg:h-[40px] h-[45px] pl-[12px] inter-regular text-[12px] leading-[12px] outline-none' />
-                        <span className='absolute lg:right-[690px] right-28 top-3 inter-regular text-[12px] text-[#8E8E8E]'>.com</span>
+                        <span className='absolute flex items-center right-0 top-3 lg:w-[390px] w-[115px] inter-regular text-[12px] text-[#8E8E8E]'>.com</span>
                     </div>
                     <input type="text" placeholder='+880' className='lg:w-[74px] w-[41px] lg:h-[40px] h-[45px] rounded inter-regular text-[12px] leading-[12px] lg:pl-4 pl-[5px]' />
                     <input type="text" placeholder='Mobile Number' className='bg-white rounded lg:w-[465px] w-[234px] lg:h-[40px] h-[45px] lg:pl-[12px] pl-[5px] inter-regular text-[12px] leading-[12px] outline-none mx-auto mb-[10px] lg:ml-[26px] ml-[14px]' />
@@ -26,7 +26,7 @@ const Contact = () => {
                             <option value="USA">USA</option>
                             <option value="Australia">Australia</option>
                         </select>
-                        <div className='absolute lg:left-[1210px] left-[360px] top-[10px] pointer-events-none'>
+                        <div className='absolute flex items-center right-0 top-2 lg:w-[380px] w-[95px] pointer-events-none'>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className='text-xl text-[#8E8E8E]' xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M7.99997 10.3904L2.47137 4.86182L1.52856 5.80463L7.99997 12.276L14.4714 5.80463L13.5286 4.86182L7.99997 10.3904Z" fill="#8E8E8E" />
                             </svg>
@@ -39,7 +39,7 @@ const Contact = () => {
                             <option value="2023">2023</option>
                             <option value="2024">2024</option>
                         </select>
-                        <div className='absolute lg:left-[1210px] left-[360px] top-[10px] pointer-events-none'>
+                        <div className='absolute flex items-center right-0 top-2 lg:w-[380px] w-[95px] pointer-events-none'>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className='text-xl text-[#8E8E8E]' xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M7.99997 10.3904L2.47137 4.86182L1.52856 5.80463L7.99997 12.276L14.4714 5.80463L13.5286 4.86182L7.99997 10.3904Z" fill="#8E8E8E" />
                             </svg>
@@ -52,7 +52,7 @@ const Contact = () => {
                             <option value="Chemistry">Chemistry</option>
                             <option value="Mathematics">Mathematics</option>
                         </select>
-                        <div className='absolute lg:left-[1210px] left-[360px] top-[10px] pointer-events-none'>
+                        <div className='absolute flex items-center right-0 top-2 lg:w-[380px] w-[95px] pointer-events-none'>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className='text-xl text-[#8E8E8E]' xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M7.99997 10.3904L2.47137 4.86182L1.52856 5.80463L7.99997 12.276L14.4714 5.80463L13.5286 4.86182L7.99997 10.3904Z" fill="#8E8E8E" />
                             </svg>
@@ -67,22 +67,24 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
-            <div className="App">
-                <section>
-                    {Letter.map((item, index) => {
-                        return (
-                            <span
-                                key={index}
-                                className="letters"
-                                style={{
-                                    transform: `rotate(${index * 15.5}deg)`
-                                }}
-                            >
-                                {item}
-                            </span>
-                        );
-                    })}
-                </section>
+            <div className='lg:block hidden'>
+                <div className="App">
+                    <section>
+                        {Letter.map((item, index) => {
+                            return (
+                                <span
+                                    key={index}
+                                    className="letters"
+                                    style={{
+                                        transform: `rotate(${index * 15.5}deg)`
+                                    }}
+                                >
+                                    {item}
+                                </span>
+                            );
+                        })}
+                    </section>
+                </div>
             </div>
         </div>
     );

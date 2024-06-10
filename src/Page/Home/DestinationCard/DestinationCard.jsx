@@ -79,8 +79,8 @@ const DestinationCard = () => {
                 <button className='relative z-20 text-white hover:text-[#1968E7] bg-transparent border border-[#E1E1E1] hover:border-[#1968E7] rounded-[32px] poppins-bold lg:text-[18px] text-[14px] px-[124px] py-[21px]'>Explore More</button>
             </div>
             
-            <div className='absolute -top-[95px] left-96 lg:block hidden max-w-[1155px] mx-auto'>
-                <img src="./assets/planepath.png" alt="path" />
+            <div className='relative lg:block hidden max-w-[1155px] mx-auto'>
+                <img src="./assets/planepath.png" className='absolute top-[-1350px] right-6' alt="path" />
             </div>
         </div>
     );
