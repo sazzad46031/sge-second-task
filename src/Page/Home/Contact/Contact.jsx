@@ -1,8 +1,11 @@
-
+import './Contact.css'
 
 const Contact = () => {
+    const text = "DREAM BIG STUDY ABROAD.";
+    const Letter = text.split("");
+
     return (
-        <div className='bg-[#E7E7E7] pt-[98px]'>
+        <div className='bg-[#E7E7E7] pt-[98px] pb-[59px]'>
             <div className='text-center'>
                 <h2 className='poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] pb-[39px]'>It’s Time to Start Your Journey With Us</h2>
                 <p className='mulish-regular text-[16px] text-[#1F1F1F] leading-[150%] pb-[18px]'>Book Your <span className='bg-[#88F3D0] rounded-sm px-1 font-medium py-1'>FREE</span> Consultation with Certified Counsellors</p>
@@ -63,6 +66,23 @@ const Contact = () => {
                         <button className='lg:poppnis-bold mulish-regular lg:text-[18px] text-[14px] lg:px-[81px] lg:py-[22px] px-[17px] py-2 bg-[#2563EB] text-white rounded-[32px]'>Book Free Counselling</button>
                     </div>
                 </form>
+            </div>
+            <div className="App">
+                <section>
+                    {Letter.map((item, index) => {
+                        return (
+                            <span
+                                key={index}
+                                className="letters"
+                                style={{
+                                    transform: `rotate(${index * 15.5}deg)`
+                                }}
+                            >
+                                {item}
+                            </span>
+                        );
+                    })}
+                </section>
             </div>
         </div>
     );

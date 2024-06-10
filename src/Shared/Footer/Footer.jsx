@@ -2,12 +2,10 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='mt-[120px]'>
+        <div>
             <div>
-                <div className='section-bg--shape_item mb-[-1px]'>
-                    <svg width="1440" height="46" viewBox="0 0 1440 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M722.251 0.000199968C435.932 -0.110768 0 46 0 46H1440C1440 46 1006.84 0.110497 722.251 0.000199968Z" fill="#081831" />
-                    </svg>
+                <div className='w-full bg-[#E7E7E7] mb-[-1px]'>
+                    <img src="./assets/footerShape.png" className='w-full' alt="" />
                 </div>
                 <div className='bg-[#081831] px-4 relative'>
                     <div className='footer-1 text-center max-w-[1154px] mx-auto'>

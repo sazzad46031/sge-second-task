@@ -176,6 +176,7 @@ html {
     font-size: 12px;
     padding: 10px;
     transform-origin: 0 var(--radius);
+    top: 0;
 }
 
 

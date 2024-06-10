@@ -2,7 +2,7 @@ import './Tab.css'
 
 const Tab = () => {
     return (
-        <div className="tabs-area pt-[129px] max-w-[1154px] mx-auto lg:pb-[96px] pb-[28px] bg-[#EFF6FF]">
+        <div className="tabs-area pt-[129px] max-w-[1154px] mx-auto lg:pb-[96px] pb-[28px]">
 
         <div className="single-tab">
             <input className='div-inputs' id="students" type="radio" name="tab" defaultChecked></input>

@@ -1,30 +1,13 @@
 import './Banner.css'
 import { FaArrowDown } from "react-icons/fa6";
 
-import { useEffect } from 'react';
+
 
 const Banner = () => {
-
-    useEffect(() => {
-        
-        window.onload = () => {
-
-            setTimeout(() => {
-                
-                const text = document.querySelector(".text-two p");
-        
-                text.innerHTML = text.innerText
-                    .split("")
-                    .map(
-                        (char, i) => `<span style="transform:rotate(${i * 15.8}deg)">${char}</span>`
-                    )
-                    .join("");
-
-            }, 200);
-
-        };
-
-    }, []);
+    const text = "DREAM BIG STUDY ABROAD.";
+    const Letter = text.split("");
+    
+    
 
     return (
         <div className='relative lg:mb-[106px] mb-[28px]'>
@@ -52,7 +35,21 @@ const Banner = () => {
                 <div className="circle">
                     <div className="icon"><FaArrowDown></FaArrowDown></div>
                     <div className="text-two">
-                        <p className='poppins-semibold'>DREAM BIG STUDY ABROAD.</p>
+                        <p className='poppins-semibold'>
+                            {Letter.map((item, index) => {
+                                return (
+                                    <span
+                                        key={index}
+                                        className="letter"
+                                        style={{
+                                            transform: `rotate(${index * 15.5}deg)`
+                                        }}
+                                    >
+                                        {item}
+                                    </span>
+                                );
+                            })}
+                        </p>
                     </div>
                 </div>
             </div>

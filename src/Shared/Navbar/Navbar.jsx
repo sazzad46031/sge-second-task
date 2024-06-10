@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
     </>
     return (
-        <div className='max-w-[1155px] mx-auto my-[6px] bg-[#F0F8FF]'>
+        <div className='max-w-[1155px] mx-auto my-[6px]'>
             <nav className='z-50'>
                 <div className='h-10vh flex justify-between items-center lg:py-0 lg:px-0 px-5 py-2'>
                     <div>
