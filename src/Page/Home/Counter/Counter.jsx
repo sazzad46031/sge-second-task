@@ -6,7 +6,7 @@ import { useState } from "react";
 const Counter = () => {
     const [counterState, setCounterState] = useState(false)
     return (
-        <div className="bg-gradient-two max-w-[1154px] mx-auto rounded-[64px] lg:mt-[150px] mt-[28px] lg:mb-[140px] mb-[28px] relative lg:z-20">
+        <div className="bg-gradient-two bg-[#EBEBEB] max-w-[1154px] mx-auto rounded-[64px] lg:mt-[150px] mt-[28px] lg:mb-[140px] mb-[28px] relative lg:z-20">
             <div className="section-bg-overlay"></div>
             <div className="flex flex-col lg:block">
                 <div className="lg:absolute lg:-top-24 lg:-z-40 order-2">
@@ -63,7 +63,7 @@ const Counter = () => {
                 </div>
             </ScrollTrigger>
             <div className="absolute -bottom-36 lg:block hidden">
-                <img className="text-red-700" src="./assets/bg-shape2.png" alt="" />
+                <img src="./assets/bg-shape2.png" alt="" />
             </div>
         </div>
     );

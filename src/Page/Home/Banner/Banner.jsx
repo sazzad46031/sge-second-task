@@ -24,11 +24,7 @@ const Banner = () => {
     return (
         <div className='relative lg:mb-[106px] mb-[28px]'>
             <div className='section'>
-                <div className='section-bg'>
-                    <div className='section-bg--video'>
-                        <video src="./assets/education2.mp4" type="video/mp4" autoPlay muted loop></video>
-                    </div>
-                </div>
+                <div className='section-bg'></div>
                 <div className='section-content pt-[31px] lg:pt-[93px] lg:pb-[206px] pb-[70px] max-w-[1155px] mx-auto'>
                     <div className='text-center lg:text-left'>
                         <h2 className='text-[#00399f] text-center tracking-tight lg:text-left text-[45px] lg:text-[90px] font-bold lg:leading-[110px] leading-[130%]'>Start Your Path to<br></br> Global Education</h2>
