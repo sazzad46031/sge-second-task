@@ -1,6 +1,7 @@
 import Footer from '../../../Shared/Footer/Footer';
 import Banner from '../Banner/Banner';
 import Connection from '../Connection/Connection';
+import Contact from '../Contact/Contact';
 import Counter from '../Counter/Counter';
 import DestinationCard from '../DestinationCard/DestinationCard';
 import Tab from '../Tab/Tab';
@@ -20,6 +21,7 @@ const Home = () => {
             <Connection></Connection>
             <DestinationCard></DestinationCard>
             <UniversityList></UniversityList>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
