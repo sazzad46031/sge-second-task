@@ -9,14 +9,19 @@ const Banner = () => {
         
         window.onload = () => {
 
-            const text = document.querySelector(".text-two p");
-    
-            text.innerHTML = text.innerText
-                .split("")
-                .map(
-                    (char, i) => `<span style="transform:rotate(${i * 15.8}deg)">${char}</span>`
-                )
-                .join("");
+            setTimeout(() => {
+                
+                const text = document.querySelector(".text-two p");
+        
+                text.innerHTML = text.innerText
+                    .split("")
+                    .map(
+                        (char, i) => `<span style="transform:rotate(${i * 15.8}deg)">${char}</span>`
+                    )
+                    .join("");
+
+            }, 200);
+
         };
 
     }, []);
