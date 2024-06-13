@@ -78,28 +78,28 @@ const UniversityList = () => {
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                     <div><img src="./assets/university7.png" alt="university" /></div>
                     <div><img src="./assets/university8.png" alt="university" /></div>
                     <div><img src="./assets/university9.png" alt="university" /></div>
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                     <div><img src="./assets/university7.png" alt="university" /></div>
                     <div><img src="./assets/university8.png" alt="university" /></div>
                     <div><img src="./assets/university9.png" alt="university" /></div>
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                     <div><img src="./assets/university7.png" alt="university" /></div>
                     <div><img src="./assets/university8.png" alt="university" /></div>
                     <div><img src="./assets/university9.png" alt="university" /></div>
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                 </div>
                 <div className='flex ticker-items'>
                     <div><img src="./assets/university7.png" alt="university" /></div>
@@ -108,28 +108,28 @@ const UniversityList = () => {
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                     <div><img src="./assets/university7.png" alt="university" /></div>
                     <div><img src="./assets/university8.png" alt="university" /></div>
                     <div><img src="./assets/university9.png" alt="university" /></div>
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                     <div><img src="./assets/university7.png" alt="university" /></div>
                     <div><img src="./assets/university8.png" alt="university" /></div>
                     <div><img src="./assets/university9.png" alt="university" /></div>
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                     <div><img src="./assets/university7.png" alt="university" /></div>
                     <div><img src="./assets/university8.png" alt="university" /></div>
                     <div><img src="./assets/university9.png" alt="university" /></div>
                     <div><img src="./assets/university10.png" alt="university" /></div>
                     <div><img src="./assets/university11.png" alt="university" /></div>
                     <div><img src="./assets/university12.jpg" alt="university" /></div>
-                    <div><img src="./assets/university14.png" alt="university" /></div>
+                    <div><img src="./assets/university14.png" alt="university" className='bg-white' /></div>
                 </div>
             </div>
             <div className='text-center mt-[98px]'>
