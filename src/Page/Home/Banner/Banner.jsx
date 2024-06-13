@@ -6,11 +6,11 @@ import { FaArrowDown } from "react-icons/fa6";
 const Banner = () => {
     const text = "DREAM BIG STUDY ABROAD.";
     const Letter = text.split("");
-    
-    
+
+
 
     return (
-        <div className='relative lg:mb-[106px] mb-[28px]'>
+        <div className='relative z-[2]'>
             <div className='section'>
                 <div className='section-bg'></div>
                 <div className='section-content pt-[31px] lg:pt-[93px] lg:pb-[206px] pb-[70px] max-w-[1155px] mx-auto'>
@@ -33,7 +33,11 @@ const Banner = () => {
             </div>
             <div className='hidden lg:flex justify-center items-center max-w-[1155px] mx-auto'>
                 <div className="circle">
-                    <div className="icon"><FaArrowDown></FaArrowDown></div>
+                    <div className="icon">
+                        <svg width="56" height="56" className='animate-bounce' viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30.3333 9.33333C30.3333 8.04467 29.2887 7 28 7C26.7113 7 25.6667 8.04467 25.6667 9.33333V42.2002L14.4832 31.0168C13.572 30.1055 12.0946 30.1055 11.1834 31.0168C10.2722 31.928 10.2722 33.4054 11.1834 34.3166L24.7002 47.8333C26.5226 49.6558 29.4774 49.6558 31.2998 47.8333L44.8166 34.3166C45.7278 33.4054 45.7278 31.928 44.8166 31.0168C43.9054 30.1055 42.428 30.1055 41.5168 31.0168L30.3333 42.2002V9.33333Z" fill="#35383F" />
+                        </svg>
+                    </div>
                     <div className="text-two">
                         <p className='poppins-semibold'>
                             {Letter.map((item, index) => {
@@ -53,7 +57,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };

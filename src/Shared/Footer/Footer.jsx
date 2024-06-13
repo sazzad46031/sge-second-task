@@ -103,6 +103,7 @@ const Footer = () => {
                             <img src="./assets/linkedin.png" alt="linkedin" />
                             <img src="./assets/youtube.png" alt="youtube" />
                         </div>
+                        
                         <div className='flex lg:gap-[18px] flex-col items-center lg:flex-row text-center'>
                             <p className='mulish-regular text-[14px] text-[#CACACA] mt-6 lg:mt-0 px-20 lg:px-0'>Copyright © 2024, All Right Reserved <span className='underline'>Shabuj Global Education</span></p>
                             <p className='mulish-regular text-[14px] text-[#CACACA]'>Terms & Conditions</p>
@@ -110,7 +111,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='absolute bottom-0 left-48 lg:block hidden'>
-                        <img src="./assets/vector7.png" alt="" />
+                        <img src="./assets/vector7.png" className='w-full' alt="" />
                     </div>
                 </div>
             </div>
