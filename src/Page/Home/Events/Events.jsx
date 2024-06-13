@@ -50,7 +50,7 @@ const Events = () => {
     }
 
     return (
-        <div className='events-bg lg:h-[915px] h-[629px] mb-[100px] events-width relative overflow-hidden'>
+        <div className='events-bg lg:h-[915px] h-[629px] lg:mb-[100px] mb-5 events-width relative overflow-hidden'>
             <div>
                 <h2 className='poppins-bold lg:text-[64px] text-[28px] text-gradient text-center lg:pt-[123px] pt-[50px] lg:pb-[68px] pb-[41px]'>Upcoming Events</h2>
             </div>

@@ -13,8 +13,8 @@ const Footer = () => {
                         <img className='mx-auto mb-[22px]' src="./assets/logo2.png" alt="logo" />
 
                     </div>
-                    <hr className='max-w-[1154px] mx-auto'></hr>
-                    <div className='footer-2 leading-[150%] text-[#CACACA] max-w-[1154px] mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
+                    
+                    <div className='footer-2 leading-[150%] text-[#CACACA] border-t border-white pt-[35px] max-w-[1154px] mx-auto mt-[35px] flex flex-col lg:flex-row lg:gap-[117px]'>
                         <div className='w-[231px]'>
                             <h2 className='mulish-regular text-base mb-4'>About Shabuj Global Education</h2>
                             <p className='mulish-regular text-base'>Lorem ipsum dolor sit amet consectetur. Amet commodo bibendum ac sem molestie. Nisi imperdiet orci nulla in. Convallis eu ligula neque id varius sit lacus et. Pellentesque porta interdum morbi enim ultrices egestas aliquet amet. Aliquet elit amet porttitor posuere.</p>
@@ -57,14 +57,14 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <hr className='max-w-[1154px] mx-auto'></hr>
-                    <div className='footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px]'>
-                        <div>
-                            <div className='lg:w-[577px] lg:h-[164px] w-[460px] h-[164px] bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]'>
+                    
+                    <div className='footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white'>
+                        <div className='lg:border-none border-b border-white pb-[25px]'>
+                            <div className='lg:w-[577px] lg:h-[164px] w-[460px] bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]'>
                                 <h2 className='poppins-semibold text-[28px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]'>UKVI Approved Test Centre for</h2>
-                                <div className='flex justify-center gap-[41px]'>
-                                    <img src="./assets/footer1.png" alt="" />
-                                    <img src="./assets/footer2.png" alt="" />
+                                <div className='flex lg:flex-row flex-col justify-center items-center gap-[41px]'>
+                                    <img src="./assets/footer1.png" className='w-[125px]' alt="" />
+                                    <img src="./assets/footer2.png" className='w-[166px] pb-8' alt="" />
                                 </div>
                             </div>
                         </div>
@@ -95,15 +95,14 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <hr className='max-w-[1154px] mx-auto'></hr>
-                    <div className='footer-4 max-w-[1154px] mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center'>
-                        <div className='flex gap-[26px] mt-[21px]'>
+                    
+                    <div className='footer-4 max-w-[1154px] mx-auto pb-6 flex flex-col lg:flex-row justify-between items-center border-t border-white'>
+                        <div className='flex gap-[26px] mt-[21px] lg:border-none border-b border-white lg:w-1/3 w-full pb-[11px]'>
                             <img src="./assets/facebook.png" alt="facebook" />
                             <img src="./assets/instagram.png" alt="instagram" />
                             <img src="./assets/linkedin.png" alt="linkedin" />
                             <img src="./assets/youtube.png" alt="youtube" />
                         </div>
-                        
                         <div className='flex lg:gap-[18px] flex-col items-center lg:flex-row text-center'>
                             <p className='mulish-regular text-[14px] text-[#CACACA] mt-6 lg:mt-0 px-20 lg:px-0'>Copyright © 2024, All Right Reserved <span className='underline'>Shabuj Global Education</span></p>
                             <p className='mulish-regular text-[14px] text-[#CACACA]'>Terms & Conditions</p>
@@ -111,7 +110,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='absolute bottom-0 left-48 lg:block hidden'>
-                        <img src="./assets/vector7.png" className='w-full' alt="" />
+                        <img src="./assets/vector7.png" alt="" />
                     </div>
                 </div>
             </div>
