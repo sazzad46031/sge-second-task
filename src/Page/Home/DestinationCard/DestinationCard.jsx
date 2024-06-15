@@ -7,7 +7,7 @@ const DestinationCard = () => {
                 <h2 className='poppins-semibold lg:poppins-bold leading-[130%] -tracking-[0.02em] lg:text-[50px] text-[28px] text-gradient pb-2'>Choose Your Destination</h2>
                 <p className='poppins-bold lg:text-[67px] leading-[130%] tracking-tight text-[38px] text-white pb-[80px]'>We’ll Plan the Rest</p>
             </div>
-            <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-x-[170px] gap-x-4 lg:gap-y-[66px] gap-y-8 max-w-[1154px] mx-auto'>
+            <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-x-[170px] gap-x-4 lg:gap-y-[66px] gap-y-8 max-w-[1154px] mx-auto px-6'>
                 <div className='flip-card'>
                     <div className='flip-card-inner'>
                     <div className='flip-card--front z-10 lg:w-[270px] w-[148px] lg:h-[350px] h-[192px] bg-[#0B1831]'>
