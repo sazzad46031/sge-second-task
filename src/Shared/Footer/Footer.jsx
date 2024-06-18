@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className='w-full bg-[#E7E7E7] mb-[-1px]'>
                     <img src="./assets/footerShape.png" className='w-full' alt="" />
                 </div>
-                <div className='bg-[#081831] px-4 relative'>
+                <div className='bg-[#081831] px-6 relative'>
                     <div className='footer-1 text-center max-w-[1154px] mx-auto'>
                         <h2 className='poppins-semibold text-[21px] text-white mb-4'>Our Students are Our Reference</h2>
                         <img className='mx-auto mb-[22px]' src="./assets/logo2.png" alt="logo" />
@@ -60,10 +60,10 @@ const Footer = () => {
                     
                     <div className='footer-3 leading-[150%] max-w-[1154px] mx-auto flex lg:flex-row flex-col lg:gap-[114px] border-t border-white'>
                         <div className='lg:border-none border-b border-white pb-[25px]'>
-                            <div className='lg:w-[577px] lg:h-[164px] w-[460px] bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]'>
+                            <div className='lg:w-[577px] lg:h-[164px] w-[309px] bg-[rgba(255,255,255,0.7)] rounded-2xl text-center mt-[27px] mb-[31px]'>
                                 <h2 className='poppins-semibold text-[28px] text-[#081831] leading-[39.2px] pt-[14px] pb-[30px]'>UKVI Approved Test Centre for</h2>
                                 <div className='flex lg:flex-row flex-col justify-center items-center gap-[41px]'>
-                                    <img src="./assets/footer1.png" className='w-[125px]' alt="" />
+                                    <img src="./assets/footer1.png" className='w-[125px] pb-8' alt="" />
                                     <img src="./assets/footer2.png" className='w-[166px] pb-8' alt="" />
                                 </div>
                             </div>

@@ -38,3 +38,30 @@
     z-index: -20;
     border-radius: 64px;
 }
+
+@media screen and (max-width : 640px) {
+    .child-one {
+        width: 94px;
+    }
+    
+    .child-two {
+        width: 94px;
+    }
+    
+    .child-three {
+        width: 135px;
+    }
+    
+    .child-four {
+        width: 98px;
+    }
+    
+    .child-five {
+        width: 109px;
+    }
+    
+    .child-six {
+        width: 113px;
+    }
+    
+}

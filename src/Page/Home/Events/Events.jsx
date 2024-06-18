@@ -86,7 +86,7 @@ const Events = () => {
                 </button>
             </div>
             <div className='relative lg:hidden block z-10'>
-                <button className='absolute top-[440px] left-64' onClick={slideNext}>
+                <button className='absolute top-[440px] left-56' onClick={slideNext}>
                     <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" fill="white" />
                         <rect x="0.456522" y="41.5435" width="41.087" height="41.087" rx="20.5435" transform="rotate(-90 0.456522 41.5435)" stroke="white" stroke-width="0.913044" />
@@ -95,7 +95,7 @@ const Events = () => {
                 </button>
             </div>
             <div className='relative lg:hidden block'>
-                <button className='absolute top-[440px] left-48' onClick={slidePrev}>
+                <button className='absolute top-[440px] left-40' onClick={slidePrev}>
                     <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" fill="white" />
                         <rect x="41.5435" y="0.456522" width="41.087" height="41.087" rx="20.5435" transform="rotate(90 41.5435 0.456522)" stroke="white" stroke-width="0.913044" />
