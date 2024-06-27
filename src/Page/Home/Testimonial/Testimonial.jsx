@@ -20,7 +20,7 @@ const Testimonial = () => {
         <div className='bg-color lg:pt-[110px] pt-[34px] lg:pb-[122px] pb-[32px]'>
             <div className='flex flex-col lg:flex-row lg:gap-1 gap-6'>
                 <div>
-                    <h2 className='poppins-bold text-gradient leading-[130%] tracking-tight lg:text-[67px] text-[38px] lg:text-left  text-center  lg:pt-7 pt-4 lg:pl-[374px]'>Become a<br></br> Part of Our Success<br></br>
+                    <h2 className='poppins-bold text-gradient leading-[130%] tracking-tight lg:text-[67px] text-[38px] lg:text-left  text-center  lg:pt-7 pt-4 lg:pl-[374px] padding-left'>Become a<br></br> Part of Our Success<br></br>
                         Stories</h2>
                     
                 </div>
@@ -45,7 +45,7 @@ const Testimonial = () => {
                 </Swiper>
                  
             </div>
-            <div className='lg:pl-[376px] pl-36 lg:pt-0 pt-[27px]'>
+            <div className='lg:pl-[376px] pl-36 lg:pt-0 pt-[27px] padding-left'>
                 <button className='testimonial--btn-prev rounded-full inline-flex items-center justify-center lg:w-[72px] w-[60px] lg:h-[72px] h-[60px] border border-white text-lg text-[#fff] hover:text-black hover:bg-white mr-6'><FaArrowLeft></FaArrowLeft></button>
                 <button className='testimonial--btn-next rounded-full inline-flex items-center justify-center lg:w-[72px] w-[60px] lg:h-[72px] h-[60px] border border-white text-lg text-[#fff] hover:text-black hover:bg-white'><FaArrowRight></FaArrowRight></button>
             </div>
