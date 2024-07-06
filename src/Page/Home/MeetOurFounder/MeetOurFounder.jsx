@@ -3,16 +3,16 @@ import './MeetOurFounder.css'
 const MeetOurFounder = () => {
     return (
         <div className="max-w-[1152px] mx-auto pb-[120px] pt-[96px]">
-            <div className='mx-[98px]'>
+            <div className='lg:mx-[98px] md:mx-12 mx-8'>
                 <div className="text-center">
                     <h2 className="poppins-semibold text-[28px] text-[#00399F] leading-[39.2px]">Meet Our Founder</h2>
-                    <h3 className="poppins-semibold text-[40px] text-[#081831] leading-[56px] -tracking-[0.02em] pb-[55px]">The visionary, inspiring global goals</h3>
+                    <h3 className="poppins-semibold lg:text-[40px] text-[28px] text-[#081831] leading-[56px] -tracking-[0.02em] pb-[55px]">The visionary, inspiring global goals</h3>
                 </div>
-                <div className="flex shadow-about rounded-[32px]">
-                    <div className="w-[28%]">
-                        <img src="./assets/founder.png" className="p-[31px]" alt="image" />
+                <div className="flex shadow-about rounded-[32px] lg:flex-row flex-col">
+                    <div className="lg:w-[28%] w-full">
+                        <img src="./assets/founder.png" className="p-[31px] mx-auto" alt="image" />
                     </div>
-                    <div className="w-[72%] pr-[34px]">
+                    <div className="lg:w-[72%] w-full lg:pr-[34px]">
                         <div className='flex justify-between items-center pt-[32px]'>
                             <h2 className="poppins-semibold text-[28px] text-[#081831]">MD. Zahidul Alam</h2>
                             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -3,12 +3,12 @@
 const Thebest = () => {
     return (
         <div className="max-w-[1157px] mx-auto pt-[64px] pb-[72px]">
-            <div className="text-center">
+            <div className="text-center mx-8">
                 <h2 className="poppins-semibold text-[40px] leading-[56px] -tracking-[0.02em] text-[#081831]">Why We Are The Best</h2>
-                <p className="poppins-regular text-[16px] text-[#000000] w-[760px] mx-auto">Shabuj Global provides an excellent service to students with their admission to top quality universities and colleges in the UK. Shabuj Global helps students from all over the world. Home Students, EU students and International students have all benefitted from our help and advice.</p>
+                <p className="poppins-regular text-[16px] text-[#000000] lg:w-[760px] mx-auto">Shabuj Global provides an excellent service to students with their admission to top quality universities and colleges in the UK. Shabuj Global helps students from all over the world. Home Students, EU students and International students have all benefitted from our help and advice.</p>
             </div>
-            <div className="flex gap-[104px] items-baseline">
-                <div>
+            <div className="flex gap-[104px] items-baseline lg:flex-row flex-col">
+                <div className="mx-auto mt-12">
                     <div>
                         <svg width="237" height="120" viewBox="0 0 237 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1_2062)">
@@ -178,7 +178,7 @@ const Thebest = () => {
                             Top Universities</p>
                     </div>
                 </div>
-                <div>
+                <div className="mx-auto">
                     <div>
                         <svg width="211" height="116" viewBox="0 0 211 116" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1_2218)">
@@ -196,7 +196,7 @@ const Thebest = () => {
                         Educated Team</p>
                     </div>
                 </div>
-                <div>
+                <div className="mx-auto">
                     <div>
                         <svg width="183" height="109" viewBox="0 0 183 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1_2223)">
@@ -234,7 +234,7 @@ const Thebest = () => {
                         Consultant</p>
                     </div>
                 </div>
-                <div>
+                <div className="mx-auto">
                     <div>
                         <svg width="246" height="198" viewBox="0 0 246 198" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_1_2247)">

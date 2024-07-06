@@ -30,11 +30,11 @@ const Home = () => {
             <UniversityList></UniversityList>
             <ImageGallery></ImageGallery>
             <Contact></Contact>
-            <Footer></Footer>
+            <Footer></Footer> */}
             <Accordion></Accordion>
             <MeetOurFounder></MeetOurFounder>
-            <Thebest></Thebest> */}
-            <CanadaTab></CanadaTab>
+            <Thebest></Thebest>
+            {/* <CanadaTab></CanadaTab> */}
         </div>
     );
 };
