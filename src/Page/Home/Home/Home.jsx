@@ -1,13 +1,17 @@
 import Footer from '../../../Shared/Footer/Footer';
+import Accordion from '../Accordion/Accordion';
 import Banner from '../Banner/Banner';
+import CanadaTab from '../CanadaTab/CanadaTab';
 import Connection from '../Connection/Connection';
 import Contact from '../Contact/Contact';
 import Counter from '../Counter/Counter';
 import DestinationCard from '../DestinationCard/DestinationCard';
 import Events from '../Events/Events';
 import ImageGallery from '../ImageGallery/ImageGallery';
+import MeetOurFounder from '../MeetOurFounder/MeetOurFounder';
 import Tab from '../Tab/Tab';
 import Testimonial from '../Testimonial/Testimonial';
+import Thebest from '../TheBest/Thebest';
 import Ticker from '../Ticker/Ticker';
 import UniversityList from '../UniversityList/UniversityList';
 import './Home.css'
@@ -15,7 +19,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
+            {/* <Banner></Banner>
             <Events></Events>
             <Tab></Tab>
             <Counter></Counter>
@@ -27,6 +31,10 @@ const Home = () => {
             <ImageGallery></ImageGallery>
             <Contact></Contact>
             <Footer></Footer>
+            <Accordion></Accordion>
+            <MeetOurFounder></MeetOurFounder>
+            <Thebest></Thebest> */}
+            <CanadaTab></CanadaTab>
         </div>
     );
 };
