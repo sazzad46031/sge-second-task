@@ -3,7 +3,7 @@ import './MeetOurFounder.css'
 const MeetOurFounder = () => {
     return (
         <div className="max-w-[1152px] mx-auto pb-[120px] pt-[96px]">
-            <div className='lg:mx-[98px] md:mx-12 mx-8'>
+            <div className='lg:px-[98px] md:px-12 px-8'>
                 <div className="text-center">
                     <h2 className="poppins-semibold text-[28px] text-[#00399F] leading-[39.2px]">Meet Our Founder</h2>
                     <h3 className="poppins-semibold lg:text-[40px] text-[28px] text-[#081831] leading-[56px] -tracking-[0.02em] pb-[55px]">The visionary, inspiring global goals</h3>

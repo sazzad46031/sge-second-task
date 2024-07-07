@@ -6,9 +6,11 @@ import Connection from '../Connection/Connection';
 import Contact from '../Contact/Contact';
 import Counter from '../Counter/Counter';
 import DestinationCard from '../DestinationCard/DestinationCard';
+import EducationFair from '../EducationFair/EducationFair';
 import Events from '../Events/Events';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import MeetOurFounder from '../MeetOurFounder/MeetOurFounder';
+import PastEvents from '../PastEvents/PastEvents';
 import Tab from '../Tab/Tab';
 import Testimonial from '../Testimonial/Testimonial';
 import Thebest from '../TheBest/Thebest';
@@ -35,6 +37,8 @@ const Home = () => {
             <MeetOurFounder></MeetOurFounder>
             <Thebest></Thebest>
             {/* <CanadaTab></CanadaTab> */}
+            <EducationFair></EducationFair>
+            <PastEvents></PastEvents>
         </div>
     );
 };

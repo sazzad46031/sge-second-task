@@ -15,8 +15,8 @@ const Accordion = () => {
 
 
     return (
-        <div className='max-w-[1147px] mx-auto pt-[83px] pb-[73px]' ref={accordion}>
-            <div className='flex lg:flex-row flex-col lg:mx-0 md:mx-12 mx-8'>
+        <div className='max-w-[1152px] mx-auto pt-[83px] pb-[73px]' ref={accordion}>
+            <div className='flex lg:flex-row flex-col lg:mx-4 md:mx-12 mx-8'>
                 <div className='lg:w-[25%] w-full pb-8'>
                     <div className="poppins-semibold text-[28px] pl-4">United Kingdom</div>
                     <div className="collapse collapse-arrow">
