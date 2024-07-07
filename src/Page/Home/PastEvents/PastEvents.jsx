@@ -9,11 +9,11 @@ const PastEvents = () => {
             </div>
             <div className='lg:px-0 md:px-[200px] px-8'>
                 <div className="flex gap-6 mb-[71px] lg:flex-row flex-col">
-                    <div className="bg-[#FFFFFF] p-6 pastevents-shadow rounded-lg">
+                    <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
                         <div>
                             <img src="./assets/pastevent1.png" alt="" className="rounded-lg" />
                         </div>
-                        <div>
+                        <div className='p-5'> 
                             <h2 className='poppins-medium text-[18px] text-[#000000] pt-[18px]'>Multi-Destination Education<br></br> Expo - Dhaka</h2>
                             <div className='flex items-center gap-[10px] pt-[16px]'>
                                 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,20 +35,20 @@ const PastEvents = () => {
                                     <path d="M11.9912 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M7.99121 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[10px] pr-[11px]'>18 th May, 2024</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px] pr-[5px]'>18 th May, 2024</p>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="2.47293" cy="2.91129" r="2.48172" fill="#F25025" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[11px]'>10:00 am - 05:00 pm</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
-                            <button className='poppins-semibold text-[14px] text-[#4B4B4B] py-[7px] px-[86px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
                         </div>
                     </div>
-                    <div className="bg-[#FFFFFF] p-6 pastevents-shadow rounded-lg">
+                    <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
                         <div>
                             <img src="./assets/pastevent2.png" alt="" className="rounded-lg" />
                         </div>
-                        <div>
+                        <div className='p-5'> 
                             <h2 className='poppins-medium text-[18px] text-[#000000] pt-[18px]'>Multi-Destination Education<br></br> Expo - Dhaka</h2>
                             <div className='flex items-center gap-[10px] pt-[16px]'>
                                 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,20 +70,20 @@ const PastEvents = () => {
                                     <path d="M11.9912 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M7.99121 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[10px] pr-[11px]'>18 th May, 2024</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px] pr-[5px]'>18 th May, 2024</p>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="2.47293" cy="2.91129" r="2.48172" fill="#F25025" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[11px]'>10:00 am - 05:00 pm</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
-                            <button className='poppins-semibold text-[14px] text-[#4B4B4B] py-[7px] px-[86px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
                         </div>
                     </div>
-                    <div className="bg-[#FFFFFF] p-6 pastevents-shadow rounded-lg">
+                    <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
                         <div>
                             <img src="./assets/pastevent3.png" alt="" className="rounded-lg" />
                         </div>
-                        <div>
+                        <div className='p-5'> 
                             <h2 className='poppins-medium text-[18px] text-[#000000] pt-[18px]'>Multi-Destination Education<br></br> Expo - Dhaka</h2>
                             <div className='flex items-center gap-[10px] pt-[16px]'>
                                 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,22 +105,22 @@ const PastEvents = () => {
                                     <path d="M11.9912 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M7.99121 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[10px] pr-[11px]'>18 th May, 2024</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px] pr-[5px]'>18 th May, 2024</p>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="2.47293" cy="2.91129" r="2.48172" fill="#F25025" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[11px]'>10:00 am - 05:00 pm</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
-                            <button className='poppins-semibold text-[14px] text-[#4B4B4B] py-[7px] px-[86px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
                         </div>
                     </div>
                 </div>
                 <div className="flex gap-6 lg:flex-row flex-col">
-                    <div className="bg-[#FFFFFF] p-6 pastevents-shadow rounded-lg">
+                    <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
                         <div>
                             <img src="./assets/pastevent4.png" alt="" className="rounded-lg" />
                         </div>
-                        <div>
+                        <div className='p-5'> 
                             <h2 className='poppins-medium text-[18px] text-[#000000] pt-[18px]'>Multi-Destination Education<br></br> Expo - Dhaka</h2>
                             <div className='flex items-center gap-[10px] pt-[16px]'>
                                 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,20 +142,20 @@ const PastEvents = () => {
                                     <path d="M11.9912 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M7.99121 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[10px] pr-[11px]'>18 th May, 2024</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px] pr-[5px]'>18 th May, 2024</p>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="2.47293" cy="2.91129" r="2.48172" fill="#F25025" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[11px]'>10:00 am - 05:00 pm</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
-                            <button className='poppins-semibold text-[14px] text-[#4B4B4B] py-[7px] px-[86px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
                         </div>
                     </div>
-                    <div className="bg-[#FFFFFF] p-6 pastevents-shadow rounded-lg">
+                    <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
                         <div>
                             <img src="./assets/pastevent5.png" alt="" className="rounded-lg" />
                         </div>
-                        <div>
+                        <div className='p-5'> 
                             <h2 className='poppins-medium text-[18px] text-[#000000] pt-[18px]'>Multi-Destination Education<br></br> Expo - Dhaka</h2>
                             <div className='flex items-center gap-[10px] pt-[16px]'>
                                 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,20 +177,20 @@ const PastEvents = () => {
                                     <path d="M11.9912 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M7.99121 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[10px] pr-[11px]'>18 th May, 2024</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px] pr-[5px]'>18 th May, 2024</p>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="2.47293" cy="2.91129" r="2.48172" fill="#F25025" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[11px]'>10:00 am - 05:00 pm</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
-                            <button className='poppins-semibold text-[14px] text-[#4B4B4B] py-[7px] px-[86px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
                         </div>
                     </div>
-                    <div className="bg-[#FFFFFF] p-6 pastevents-shadow rounded-lg">
+                    <div className="bg-[#FFFFFF] hover:bg-[#2563EB] card transition-all pastevents-shadow rounded-lg">
                         <div>
                             <img src="./assets/pastevent6.png" alt="" className="rounded-lg" />
                         </div>
-                        <div>
+                        <div className='p-5'> 
                             <h2 className='poppins-medium text-[18px] text-[#000000] pt-[18px]'>Multi-Destination Education<br></br> Expo - Dhaka</h2>
                             <div className='flex items-center gap-[10px] pt-[16px]'>
                                 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,13 +212,13 @@ const PastEvents = () => {
                                     <path d="M11.9912 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M7.99121 18.9012V18.9112" stroke="#F25025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[10px] pr-[11px]'>18 th May, 2024</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px] pr-[5px]'>18 th May, 2024</p>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="2.47293" cy="2.91129" r="2.48172" fill="#F25025" />
                                 </svg>
-                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[11px]'>10:00 am - 05:00 pm</p>
+                                <p className='text-[#F25025] poppins-regular text-[14px] pl-[5px]'>10:00 am - 05:00 pm</p>
                             </div>
-                            <button className='poppins-semibold text-[14px] text-[#4B4B4B] py-[7px] px-[86px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
+                            <button className='poppins-semibold lg:text-[14px] text-[12px] text-[#4B4B4B] hover:text-[#2563EB] py-[7px] px-[96px] bg-[#FFFFFF] border border-[#E1E1E1]'>View Event Details</button>
                         </div>
                     </div>
                 </div>
