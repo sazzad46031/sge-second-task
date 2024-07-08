@@ -10,8 +10,8 @@ const Contact = () => {
                 <h2 className='poppins-bold lg:text-[38px] text-[28px] text-[#081831] leading-[130%] -tracking-[0.02em] pb-[39px]'>It’s Time to Start Your Journey With Us</h2>
                 <p className='mulish-regular text-[16px] text-[#1F1F1F] leading-[150%] pb-[18px]'>Book Your <span className='bg-[#88F3D0] rounded-sm px-1 font-medium py-1'>FREE</span> Consultation with Certified Counsellors</p>
             </div>
-            <div className='text-center '>
-                <div className='max-w-[565px] lg:mx-auto mx-5'> 
+            <div className='text-center'>
+                <div className='max-w-[565px] lg:mx-auto md:mx-auto mx-5'> 
                     <form>
                         <input type="text" placeholder='Name' className='bg-white rounded w-full lg:h-[40px] h-[45px] pl-[12px] inter-regular text-[12px] leading-[12px] outline-none block mx-auto mb-[10px]' />
                         <div className='relative text-center mb-[10px]'>

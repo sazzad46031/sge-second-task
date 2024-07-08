@@ -30,3 +30,14 @@
     }
    
 }
+@media screen and (min-width : 641px) and (max-width : 768px) {
+    .flip-card{
+        width: 270px;
+        height: 350px;
+    }
+    .flip-card--back > img{
+        width: 270px;
+        height: 350px;
+    }
+   
+}

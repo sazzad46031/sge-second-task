@@ -1,6 +1,7 @@
-import Footer from '../../../Shared/Footer/Footer';
+
 import Accordion from '../Accordion/Accordion';
 import Banner from '../Banner/Banner';
+import BlogInbox from '../BlogInbox/BlogInbox';
 import CanadaTab from '../CanadaTab/CanadaTab';
 import Connection from '../Connection/Connection';
 import Contact from '../Contact/Contact';
@@ -21,7 +22,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            {/* <Banner></Banner>
+            <Banner></Banner>
             <Events></Events>
             <Tab></Tab>
             <Counter></Counter>
@@ -32,13 +33,15 @@ const Home = () => {
             <UniversityList></UniversityList>
             <ImageGallery></ImageGallery>
             <Contact></Contact>
-            <Footer></Footer> */}
-            <Accordion></Accordion>
+            
+            {/* <Accordion></Accordion>
             <MeetOurFounder></MeetOurFounder>
             <Thebest></Thebest>
-            {/* <CanadaTab></CanadaTab> */}
+            <CanadaTab></CanadaTab>
             <EducationFair></EducationFair>
-            <PastEvents></PastEvents>
+            <BlogInbox></BlogInbox>
+            <PastEvents></PastEvents> */}
+            
         </div>
     );
 };

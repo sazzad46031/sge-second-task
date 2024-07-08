@@ -19,7 +19,7 @@ const Tab = () => {
                         <p className='mulish-regular text-[12px] lg:text-[16px] text-[1F1F1F] pt-[14px] text-left lg:px-0 px-6'>Shabuj Global Education helps you with Course & University<br></br> Selection, Interview and Test Preparation, Visa Application and<br></br> Admission and more- so you can join your dream university<br></br> with ease!</p>
                         <button className='bg-[#2563EB] hover:bg-[#126def] mulish-regular lg:text-[21px] text-[14px] text-white rounded-[32px] lg:px-[85px] px-10 lg:py-2 py-[3px] mt-6 mx-auto'>Start Now</button>
                     </div>
-                    <div className='order-1 lg:order-2'>
+                    <div className='order-1 lg:order-2 lg:pt-0 md:pt-10'>
                         <img className='w-[148px] lg:w-[447px] mx-auto' src="./assets/students.png" alt="students" />
                     </div>
                 </div>

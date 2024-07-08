@@ -45,7 +45,7 @@ const Testimonial = () => {
                 </Swiper>
                  
             </div>
-            <div className='lg:pl-[376px] pl-36 lg:pt-0 pt-[27px] padding-left'>
+            <div className='lg:pl-[376px] pl-36 lg:pt-0 pt-[27px] padding-left md:pl-72'>
                 <button className='testimonial--btn-prev rounded-full inline-flex items-center justify-center lg:w-[72px] w-[60px] lg:h-[72px] h-[60px] border border-white text-lg text-[#fff] hover:text-black hover:bg-white mr-6'><FaArrowLeft></FaArrowLeft></button>
                 <button className='testimonial--btn-next rounded-full inline-flex items-center justify-center lg:w-[72px] w-[60px] lg:h-[72px] h-[60px] border border-white text-lg text-[#fff] hover:text-black hover:bg-white'><FaArrowRight></FaArrowRight></button>
             </div>

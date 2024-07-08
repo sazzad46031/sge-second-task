@@ -1,4 +1,4 @@
-import { FaArrowRight, FaTimes } from 'react-icons/fa';
+import {  FaTimes } from 'react-icons/fa';
 import './Navbar.css'
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-router-dom';
