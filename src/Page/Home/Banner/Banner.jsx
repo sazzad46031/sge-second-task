@@ -1,5 +1,5 @@
 import './Banner.css'
-import { FaArrowDown } from "react-icons/fa6";
+
 
 
 

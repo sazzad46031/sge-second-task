@@ -2,7 +2,7 @@
 
 const BlogInbox = () => {
     return (
-        <div className="max-w-[1152px] mx-auto border-[#CACACA] border-y-[1px] pt-[53px] pb-[17px]">
+        <div className="max-w-[1152px] mx-auto border-[#CACACA] border-y-[1px] pt-[53px] pb-[17px] mt-[161px] mb-[174px]">
             <div className="flex lg:flex-row flex-col">
                 <p className="poppins-semibold text-[28px] leading-[39.2px] text-[#00399F] lg:pr-[27px] md:text-center text-center mb-8">Receive Our Blog Posts Straight to Your Inbox</p>
                 <div className="relative lg:pr-20 md:mx-auto mx-auto mb-8 pr-12">
